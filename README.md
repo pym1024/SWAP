@@ -1,5 +1,5 @@
 # Sample-Wise Activation Patterns for Ultra-Fast NAS <br/> (ICLR 2024 Spotlight)
-SWAP-Score, based on sample-wise activation patterns, is a metric that accesses the performance of neural networks without training.
+SWAP-Score, based on sample-wise activation patterns, is a metric that assesses the performance of neural networks without training.
 
 # Usage
 
