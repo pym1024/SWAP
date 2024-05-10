@@ -1,5 +1,5 @@
 # Sample-Wise Activation Patterns for Ultra-Fast NAS <br/> (ICLR 2024 Spotlight)
-Training-free metrics (a.k.a. zero-cost proxies) are widely used to avoid resource-intensive neural network training, especially in Neural Architecture Search (NAS). Recent studies show that existing training-free metrics have several limitations, such as limited correlation and poor generalisation across different search spaces and tasks. Hence, we propose Sample-Wise Activation Patterns and its derivative, SWAP-Score, a novel high-performance training-free metric. It measures the expressivity of networks over a batch of input samples. The SWAP-Score is strongly correlated with ground-truth performance across various search spaces and tasks, outperforming 15 existing training-free metrics on NAS-Bench-101/201/301 and TransNAS-Bench-101.
+SWAP-Score, based on sample-wise activation patterns, is a metric that accesses the performance of neural networks without training.
 
 # Usage
 
