@@ -7,14 +7,14 @@ The following instruction demonstrates the usage of evaluating network's perform
 
 **/src/metrics/swap.py** contains the core components of SWAP-Score. 
 
-**/datasets/DARTS_archs_CIFAR10.csv** contains 1000 architectures (randomly sampled from DARTS space) along with their CIFAR-10 validation accuracies (trained for 200 epochs).
+**/datasets/DARTS_archs_CIFAR10.csv** contains 1000 architectures (randomly sampled from DARTS search space) along with their CIFAR-10 validation accuracies (trained for 200 epochs).
 
 * Install necessary dependencies (a new virtual environment is suggested).
 ```
 cd SWAP
 pip install -r requirements.txt
 ```
-* Calculate the correlation between SWAP-Score and CIFAR-10 validation accuracies of 1000 DARTS architectures.
+* Calculate the correlation between SWAP-Score and CIFAR-10 validation accuracies of 1000 CNN architectures.
 ```
 python correlation.py
 ```
